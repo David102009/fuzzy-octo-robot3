@@ -23,7 +23,7 @@ public class HomePageTest extends CommonMethods {
 		cP.selectMainNavOption("shop");
 		CommonMethods.click(sP.homeButton);
 		Assert.assertTrue(hP.ThreeArrivals.size() == 3);
-
+//
 }
 	@Ignore
 	@Test
