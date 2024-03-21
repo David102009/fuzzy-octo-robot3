@@ -5,8 +5,8 @@
     <classes>
       <class name="testcases.HomePageTest">
         <methods>
+          <include name="homeArrivalsAddToBasketWithMoreBooks"/>
           <include name="getDriver"/>
-          <include name="homePageHasThreeSliders"/>
           <include name="teardDown"/>
         </methods>
       </class> <!-- testcases.HomePageTest -->

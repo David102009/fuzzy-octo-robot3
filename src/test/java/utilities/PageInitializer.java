@@ -1,5 +1,6 @@
 package utilities;
 
+import pages.basketPage;
 import pages.commonPage;
 import pages.homePage;
 import pages.productPage;
@@ -11,7 +12,7 @@ public class PageInitializer extends BaseClass {
 	public static shopPage sP;
 	public static homePage hP;
 	public static productPage pP;
-	
+	public static basketPage bP;
 	
 	
 	public static void initialize() {
@@ -19,6 +20,7 @@ public class PageInitializer extends BaseClass {
 		 sP = new shopPage();
 		 hP = new homePage();
 		 pP = new productPage();
+		 bP = new basketPage();
 	}
 	
 	

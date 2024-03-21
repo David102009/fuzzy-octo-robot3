@@ -22,14 +22,22 @@ public class productPage {
 	@FindBy(xpath="//div[@class='woocommerce-message']")
 	public WebElement commerceMessage;
 	
-	@FindBy(xpath="//*[@class='description_tab active']")
+	@FindBy(xpath="//div[@class='woocommerce-tabs wc-tabs-wrapper']/ul/li[1]")
 	public WebElement clickOnDescriptionTab;
 	
-	@FindBy(xpath="//*[@class='posted_in']")
-	public WebElement categorySelections;
 	
 	@FindBy(xpath="//*[@id='tab-description']")
 	public WebElement descriptionMessage;
 	
+	@FindBy(xpath="//li[starts-with(@class,'reviews_tab')]")
+	public WebElement reviewTab;
 	
+	@FindBy(xpath="//div[@id='comments']")
+	public WebElement commentsInReviewTab;
+	
+	@FindBy(xpath="//*[@class='button wc-forward']")
+	public WebElement viewBasket;
+	
+	@FindBy(xpath="//*[@action='https://practice.automationtesting.in/basket/']")
+	public WebElement navigateToBasket;
 }
